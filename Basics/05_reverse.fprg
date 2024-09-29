@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="05_reverse"/>
+        <attribute name="authors" value="sajid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-29 03:04:43 pm"/>
+        <attribute name="created" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDI6NTg6MTMgcG07Mjg4OA=="/>
+        <attribute name="edited" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDM6MDQ6NDMgcG07MTsyOTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <assign variable="R" expression="0"/>
+            <output expression="&quot;ENter the number &quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&gt;0">
+                <assign variable="R" expression="n%10"/>
+                <output expression="R" newline="True"/>
+                <assign variable="n" expression="n/10"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
