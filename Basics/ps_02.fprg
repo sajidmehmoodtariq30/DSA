@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ps_02"/>
+        <attribute name="authors" value="sajid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-29 02:18:53 pm"/>
+        <attribute name="created" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDE6NDQ6NTQgcG07Mjg4Nw=="/>
+        <attribute name="edited" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDI6MTg6NTMgcG07MTsyOTk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter first number&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Enter Second number&quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x = y">
+                <then>
+                    <output expression="x &amp; &quot; is equal to &quot; &amp; y" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x&lt;y">
+                        <then>
+                            <output expression="x &amp; &quot; is less than &quot; &amp; y" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="y &amp; &quot; is less than &quot; &amp; x" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
