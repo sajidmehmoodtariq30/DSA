@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="AreaSquare"/>
+        <attribute name="authors" value="sajid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-29 01:12:56 pm"/>
+        <attribute name="created" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDE6MDc6MTQgcG07Mjg4Mg=="/>
+        <attribute name="edited" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDE6MTI6NTYgcG07MjsyOTkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the length of square&quot;" newline="True"/>
+            <input variable="length"/>
+            <output expression="&quot;Area of square is&quot; &amp; length*length" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
