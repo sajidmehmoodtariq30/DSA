@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="03_even"/>
+        <attribute name="authors" value="sajid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-29 02:48:54 pm"/>
+        <attribute name="created" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDI6NDY6MzQgcG07Mjg4OA=="/>
+        <attribute name="edited" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDI6NDg6NTQgcG07MTszMDAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a Number &quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num%2==0">
+                <then>
+                    <output expression="num &amp; &quot; is an even number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="num &amp; &quot; is an odd number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
