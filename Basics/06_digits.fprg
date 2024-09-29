@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="06_digits"/>
+        <attribute name="authors" value="sajid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-29 03:12:42 pm"/>
+        <attribute name="created" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDM6MDU6NDIgcG07Mjg4Mw=="/>
+        <attribute name="edited" value="c2FqaWQ7REVTS1RPUC0xQkMwMUtJOzIwMjQtMDktMjk7MDM6MTI6NDIgcG07MTsyOTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <output expression="&quot;Enter the number&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num &lt; 0">
+                <then>
+                    <assign variable="num" expression="-num"/>
+                </then>
+                <else/>
+            </if>
+            <while expression="num &gt; 0">
+                <assign variable="count" expression="count + 1"/>
+                <assign variable="num" expression="num /10"/>
+            </while>
+            <output expression="&quot;Number of digits in the number is &quot;  &amp; count" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
